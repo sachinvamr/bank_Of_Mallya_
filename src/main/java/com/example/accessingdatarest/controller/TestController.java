@@ -16,7 +16,7 @@ public class TestController {
 	Tbl_AtmdtlsRepositoryService tbl_atmdtlsRepositoryService;
 	
 	@GetMapping("test1")
-	public List<Tbl_Atmdtls> temp1(){
+	public List<Tbl_Atmdtls> getTable(){
 		
 		return  tbl_atmdtlsRepositoryService.getAllTbl();
 	}
